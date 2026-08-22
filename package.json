@@ -1,0 +1,17 @@
+{
+  "name": "the-debt-of-redemption",
+  "version": "0.1.0",
+  "description": "The Debt of Redemption — 35 LVL Game Jam",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-packager . \"The Debt of Redemption\" --platform=win32 --arch=x64 --out=dist --overwrite --icon=assets/art/icon.ico --asar",
+    "build:linux": "electron-packager . \"The Debt of Redemption\" --platform=linux --arch=x64 --out=dist --overwrite --asar"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-packager": "^17.1.2"
+  },
+  "author": "RECURSION",
+  "license": "MIT"
+}

@@ -1,0 +1,31 @@
+{
+  "floors": [
+    { "n": 10, "souls": 12, "interval": 0.90, "spawns": ["crave"],                   "palette": "abyss",   "removes": "stun"    },
+    { "n": 9,  "souls": 18, "interval": 0.75, "spawns": ["crave", "shame"],           "palette": "abyss",   "removes": "vision"  },
+    { "n": 8,  "souls": 22, "interval": 0.65, "spawns": ["crave", "shame"],           "palette": "bone",    "removes": "comp"    },
+    { "n": 7,  "souls": 26, "interval": 0.55, "spawns": ["crave", "shame", "sloth"],  "palette": "bone",    "removes": "magic"   },
+    { "n": 6,  "souls": 30, "interval": 0.48, "spawns": ["crave", "shame", "sloth"],  "palette": "rust",    "removes": "dash"    },
+    { "n": 5,  "souls": 34, "interval": 0.42, "spawns": ["crave", "shame", "sloth"],  "palette": "rust",    "removes": "shop"    },
+    { "n": 4,  "souls": 38, "interval": 0.36, "spawns": ["shame", "sloth"],           "palette": "ember",   "removes": "regen"   },
+    { "n": 3,  "souls": 40, "interval": 0.30, "spawns": ["crave", "shame", "sloth"],  "palette": "ember",   "removes": "time"    },
+    { "n": 2,  "souls": 44, "interval": 0.26, "spawns": ["crave", "shame", "sloth"],  "palette": "pyre",    "removes": "undying" },
+    { "n": 1,  "souls": 50, "interval": 0.22, "spawns": ["crave", "shame", "sloth"],  "palette": "pyre",    "removes": "all"     }
+  ],
+
+  "sins": {
+    "crave": { "hp": 22, "spd": 84, "dmg": 8,  "r": 11, "scale": 1.5, "name": "жажда",     "appear": "ещё немного. ещё чуть-чуть.", "death": "...но я ведь просто хотел." },
+    "shame": { "hp": 38, "spd": 56, "dmg": 12, "r": 13, "scale": 1.6, "name": "стыд",       "appear": "",                            "death": "не смотри на меня." },
+    "sloth": { "hp": 72, "spd": 36, "dmg": 16, "r": 15, "scale": 1.7, "name": "праздность", "appear": "а завтра. завтра точно.",      "death": "так тяжело." }
+  },
+
+  "hero": {
+    "hp": 100,
+    "speed": 155,
+    "atk_dmg": 28,
+    "atk_cd": 0.34,
+    "atk_range": 48,
+    "dash_speed": 560,
+    "dash_dur": 0.16,
+    "dash_cd": 1.1
+  }
+}
